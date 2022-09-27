@@ -24,6 +24,7 @@
 .caixa-formulario h2 {
     color: palevioletred;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 .campo {
@@ -36,20 +37,23 @@
 .campo label {
     color: palevioletred;
     font-size: 20px;
-    padding: 10px 0;
+    padding: 4px 0;
+    font-weight: bolder;
 }
 
 .campo input {
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 5px;
     border: 2px solid #32b9cd;
+    text-align: center;
+    
 }
 
 .caixa-formulario button {
     margin-top: 20px;
     width: 120px;
     color: white;
-    background-color: blueviolet;
+    background-color: #e6005e;
     padding: 10px 20px;
     font-weight: bold;
     border: none;
@@ -60,4 +64,5 @@
 
 .caixa-formulario button:hover {
     opacity: 0.8; 
+    background-color: blueviolet;
 }

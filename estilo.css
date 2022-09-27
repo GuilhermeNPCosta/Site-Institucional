@@ -13,9 +13,9 @@
 }
 
 .banner .container p {
+    width: 280px;
     color: #fff;
     font-size: 30px;
-    width: 280px;
 }
 
 .social {
@@ -23,7 +23,7 @@
 }
 
 .social .caixas {
-    display:flex;   
+    display: flex;   
 }
 
 .caixa {
@@ -33,9 +33,6 @@
     margin: 0 15px;
 }
 
-.caixa img {
-   width: 170px;
-}
 
 .caixa h4 {
     margin: 15px 0;
@@ -46,15 +43,6 @@
     text-align: center;
 }
 
-footer {
-    padding: 45px 0;
-    background-color: #32b9cd;
-}
-
-footer .container {
-    justify-content: center;
-}
-
-footer p {
-    color: #fff;
+.caixa img {
+width: 170px;
 }

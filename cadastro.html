@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Institucional</title>
     <link rel="stylesheet" href="estilos-gerais.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
     <header>
@@ -20,8 +20,8 @@
                     <li><a href="#">Inicial</a></li>
                     <li><a href="#">Simulador</a></li>
                     <li>|</li>
-                    <li class="agora"><a href="#">Login</a></li>
-                    <li><a href="#">Cadastro</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li class="agora"><a href="#">Cadastro</a></li>
                 </ul>
             </div>
         </div>
@@ -30,14 +30,22 @@
         <section class="banner">
             <div class="container">
                 <div class="caixa-formulario">
-                    <h2>Olá de volta!</h2>
+                    <h2>Bem-vindo!</h2>
                     <div class="campo">
-                        <label for="email">Email</label>
+                        <label for="nome">Nome:</label>
+                        <input name="nome" id="nome" placeholder="Seu nome">
+                    </div>
+                    <div class="campo">
+                        <label for="email">Email:</label>
                         <input type="email" name="email" id="email" placeholder="email@email.com">
                     </div>
                     <div class="campo">
-                        <label for="senha">Senha</label>
+                        <label for="senha">Senha:</label>
                         <input type="password" name="senha" id="senha" placeholder="**********">
+                    </div>
+                    <div class="campo">
+                        <label for="confirmação_senha">Confirmação da Senha:</label>
+                        <input type="password" name="confirmação_senha" id="confirmação_senha" placeholder="**********">
                     </div>
                     <button>Enviar</button>
                 </div>
